@@ -4,7 +4,7 @@ module.exports = {
   entry: path.join(__dirname, '../src/index'),
   output: {
     path: path.join(__dirname, '../dist'),
-    filename: 'weapp-adapter-pixi.min.js',
+    filename: 'weapp-adapter-pixi.js',
   },
   module: {
     rules: [
@@ -17,5 +17,6 @@ module.exports = {
         ]
       }
     ]
-  }
+  },
+  devtool: 'source-map'
 }
