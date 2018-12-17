@@ -2,7 +2,7 @@
   "name": "weapp-pixi-adapter",
   "version": "0.0.5",
   "description": "微信小游戏pixi.js适配器",
-  "main": "./dist/weapp-adapter-pixi.js",
+  "main": "./dist/weapp-pixi-adapter.js",
   "directories": {
     "test": "test"
   },
@@ -10,6 +10,11 @@
     "type": "git",
     "url": "https://github.com/xmean/weapp-pixi-adapter.git"
   },
+  "files": [
+    "dist/",
+    "package.json",
+    "README.md"
+  ],
   "scripts": {
     "dev": "webpack --config build/webpack.config.js --watch",
     "build": "webpack --mode production --hide-modules --config build/webpack.config.js",
