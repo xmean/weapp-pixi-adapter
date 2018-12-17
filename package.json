@@ -1,7 +1,7 @@
 {
-  "name": "weapp-adapter",
-  "version": "0.0.1",
-  "description": "Adapter for WeChat Mini Program",
+  "name": "weapp-pixi-adapter",
+  "version": "0.0.2",
+  "description": "微信小游戏pixi.js适配器",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -11,7 +11,7 @@
     "build": "webpack --optimize-minimize --mode production --hide-modules --config build/webpack.config.js",
     "test": "jest"
   },
-  "author": "linkqjlin",
+  "author": "xmean",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.13.2",
