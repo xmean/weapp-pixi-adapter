@@ -2,9 +2,9 @@ import { HTMLCanvasElement, CanvasRenderingContext2D, WebGLRenderingContext } fr
 import HTMLElement from './HTMLElement'
 import document from './document'
 
-let hasModifiedCanvasPrototype = false
-let hasInit2DContextConstructor = false
-let hasInitWebGLContextConstructor = false
+const hasModifiedCanvasPrototype = false
+const hasInit2DContextConstructor = false
+const hasInitWebGLContextConstructor = false
 
 export default function Canvas() {
   const canvas = wx.createCanvas()
@@ -22,6 +22,7 @@ export default function Canvas() {
       width: window.innerWidth,
       height: window.innerHeight
     }
+    
     return ret
   }
 

@@ -91,6 +91,7 @@ export default class XMLHttpRequest {
     } else {
       const responseType = this.responseType === 'blob' ?
         (this.responseType = 'arraybuffer', 'blob') : null
+
       wx.request({
         data,
         url: _url.get(this),
@@ -124,7 +125,7 @@ export default class XMLHttpRequest {
             this.responseText = data
           }
           _changeReadyState.call(this, XMLHttpRequest.DONE)
-          _triggerEvent.call(this, 'load', {target: this})
+          _triggerEvent.call(this, 'load', { target: this })
           _triggerEvent.call(this, 'loadend')
         },
         fail: ({ errMsg }) => {

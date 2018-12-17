@@ -24,7 +24,7 @@
     "no-shadow": "off",
     "no-undef-init": 1,
     "no-undef": 2,
-    "no-unused-vars": [1, {"vars": "all", "args": "all"}],
+    "no-unused-vars": [0, {"vars": "all", "args": "all"}],
     "no-use-before-define": 1,
 
     "no-cond-assign": [2, "except-parens"],
@@ -138,7 +138,7 @@
     "no-restricted-syntax": 0,
     "no-spaced-func": 1,
     "no-ternary": 0,
-    "no-trailing-spaces": [1, {"skipBlankLines": false}],
+    "no-trailing-spaces": [1, {"skipBlankLines": true}],
     "no-underscore-dangle": 0,
     "no-unneeded-ternary": [1, {"defaultAssignment": true}],
     "object-curly-spacing": [1, "always"],
