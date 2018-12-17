@@ -6,6 +6,10 @@
   "directories": {
     "test": "test"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xmean/weapp-pixi-adapter.git"
+  },
   "scripts": {
     "dev": "webpack --config build/webpack.config.js --watch",
     "build": "webpack --optimize-minimize --mode production --hide-modules --config build/webpack.config.js",
