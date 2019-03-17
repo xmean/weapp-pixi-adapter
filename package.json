@@ -1,6 +1,6 @@
 {
   "name": "weapp-pixi-adapter",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "微信小游戏pixi.js适配器",
   "main": "./dist/weapp-pixi-adapter.js",
   "directories": {
